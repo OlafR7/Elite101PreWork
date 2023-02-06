@@ -16,7 +16,7 @@ def reply(string):
 
   
 if __name__ == '__main__':
-  comp_response = 'Hello and welcome to the restaraunt. I am here to help make and confirm reservations, explaing the menu and specials, and even order. So what did you need?\n'
+  comp_response = 'Hello and welcome to the restaraunt. I am here to help make and confirm reservations, explain the menu and specials, and even allow you to order. So what did you need?\n'
   while(True):
     user_response = input(comp_response)
     if(user_response == 'q'):
