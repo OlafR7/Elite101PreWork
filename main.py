@@ -12,11 +12,11 @@ def reply(string):
     input('Okay what would you like to order.\n')
     return 'Okay that will be out to you soon. Do you need anything else?\n'
 
-  return 'Sorry, I don\'t understand what you mean.\n'
+  return 'Do you need anything else?\n'
 
   
 if __name__ == '__main__':
-  comp_response = 'Hello and welcome to the restaraunt. I am here to help make and confirm reservations, explain the menu and specials, and even allow you to order. So what did you need?\n'
+  comp_response = 'Hello, wellcome to the restaurant. If you want you can make a reservation. You can also ask about specials and the menu or you can just order if you\'re ready\n'
   while(True):
     user_response = input(comp_response)
     if(user_response == 'q'):
